@@ -1,0 +1,35 @@
+
+body{
+    font-family: "Poppins";
+}
+
+.carousal-section img{
+height: 80vh;
+}
+
+.all-listings{
+    background: rgb(17, 17, 68);
+}
+
+
+.contact-form{
+    width: 60vw;
+}
+
+.footer-section{
+    min-height: 12rem;
+    background: rgb(17, 17, 68);
+}
+
+a{
+    text-decoration: none;
+}
+@media(max-width:800px){
+    .carousal-section img{
+        height: 50vh;
+        } 
+
+        .contact-form{
+            width: 95vw;
+        }
+}
